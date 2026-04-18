@@ -18,9 +18,23 @@ Replace `<your_id>` with your student ID. If your ID contains a `-ex` suffix, th
 
 1. Open your assigned file `solutions/task_<your_id>.py`.
 2. Read the instructions in the file header comments carefully.
-3. Implement all required functions directly in that file.
+3. Implement the `solve(id: str) -> int` function directly in that file.
 4. Do **not** rename or move your file.
 5. Do **not** modify any other student's file.
+
+### The Function Signature
+
+```python
+def solve(id: str) -> int:
+    """
+    Implement your task here.
+    Your id is passed as a string.
+    Return an integer.
+    """
+    pass
+```
+
+Your student ID is passed as a string argument. Your function must return an integer.
 
 ### Submission
 
